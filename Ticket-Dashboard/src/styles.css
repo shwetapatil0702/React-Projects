@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* App container */
+.app-container {
+  padding-top: 30px;
+}
+
+
+/* Title */
+.app-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+/* Center the form */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.form-card {
+  background: #ffffff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Heading */
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Labels */
+.form-card label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Inputs */
+.form-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Buttons */
+.form-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1976d2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-card button:hover {
+  background-color: #125ea5;
+}
+
+/* Text */
+.form-card p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Dashboard container */
+.dashboard {
+  max-width: 900px;
+  margin: 30px auto;
+    
+}
+
+/* Filter buttons section */
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+  
+
+/* Buttons */
+.filter-buttons button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #125ea5;
+}
+
+/* Search input */
+.search-input {
+  margin-top: 10px;
+  padding: 8px;
+  width: 200px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Add ticket section */
+.add-ticket {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  margin-bottom: 25px;
+}
+
+.add-ticket input {
+  flex: 1;
+}
+
+.add-ticket button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1976d2;
+  color: white;
+}
+
+/* Ticket list */
+.ticket-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Each ticket card */
+.ticket-item {
+  background: #ffffff;
+  padding: 18px 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid #eee;
+}
+
+
+
+/* Status colors */
+.open {
+  color: green;
+  font-weight: bold;
+}
+
+.closed {
+  color: red;
+  font-weight: bold;
+}
+
+/* Ticket action buttons */
+.ticket-actions button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ticket-actions button:first-child {
+  background-color: #1976d2;
+  color: white;
+}
+
+.ticket-actions button:last-child {
+  background-color: crimson;
+  color: white;
+}
+
+.ticket-item h3 {
+  margin: 0;
+}
+
+.ticket-item p {
+  margin: 5px 0 0;
+}
+.dashboard-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.ticket-item:hover {
+  transform: translateY(-2px);
+  transition: 0.2s;
+}
+
+.ticket-item:hover {
+  transform: translateY(-3px);
+  transition: 0.2s ease;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.filter-buttons input {
+  margin-left: auto;
+}
